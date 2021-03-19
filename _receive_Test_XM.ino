@@ -10,6 +10,7 @@ int CAN_Id;
 
 // the cs pin of the version after v1.1 is default to D9
 // v0.9b and v1.0 is default D10
+// TO COMMENT DEPENDING ON YOUR LIBRARY
 const int SPI_CS_PIN = 10;
 
 MCP_CAN CAN(SPI_CS_PIN);     
